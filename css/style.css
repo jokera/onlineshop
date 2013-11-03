@@ -60,11 +60,3 @@ fieldset{
 h1{
     text-shadow: 0 1px 0 white;
 }
-#tutInfo{
-    background: #e3e3e3;
-    border-top 1px solid white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: .7em .7em .7em 2em;
-}
