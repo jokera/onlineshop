@@ -1,0 +1,19 @@
+/* 
+    Document   : style.css
+    Created on : 2013-11-3, 21:41:44
+    Author     : Joker
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background: #b6b6b6;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+#login_form{
+    width: 300px;
+    background: #f0f0f0 url(../img/login_bg.jpg);
+        border: 1px solide white;
+}
