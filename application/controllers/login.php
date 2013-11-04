@@ -25,8 +25,11 @@ class Login extends CI_Controller {
         $data['main_content'] = 'signup_form';
         $this->load->view('includes/template', $data);
     }
-
-    function create_member() {
+    function logout(){
+        $this->session->sess_destroy();
+        $this->index();
+    }
+            function create_member() {
         $this->load->library('form_validation');
         $this->form_validation->set_rules('first_name', 'First Name', 'trim|required');
         $this->form_validation->set_rules('last_name', 'Last Name', 'trim|required');
