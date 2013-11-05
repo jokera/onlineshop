@@ -32,7 +32,7 @@ echo anchor('login/logout', 'Log out');
 </div>
 <br/><table class ='products'><thead><th>Name</th><th>Description</th><th>Price</th><th>Catalog id</th></thead>
             <?php
-            $connection = mysqli_connect('localhost', 'gatakka', 'qwerty', 'market');
+            $connection = mysqli_connect('hristostoyanov.info', 'jokera', 'katerica', 'market');
             if (!$connection) {
                 echo 'Error establishing a Database connection';
                 exit;
